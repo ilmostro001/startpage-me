@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     $("span[name='a']").click(function() {
         var curr = $search.val();
-        $search.val("!a " + curr);
+        $search.val("!ain " + curr);
         $search.focus();
     });
 

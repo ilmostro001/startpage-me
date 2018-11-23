@@ -9,13 +9,14 @@
 body {
     width: 100vw;
     height: 100vh;
-    background-color: #f6f6f6;
+    background-color: #1c1c1c;
 }
 
 h2 {
     width: 100vw;
     position: absolute;
     top: calc(30vh - 50px);
+    color: #a0a0a0;
     text-align: center;
     font-weight: 300;
     font-size: 35px;
@@ -47,7 +48,7 @@ form p span {
 }
 
 form p span:hover {
-    color: black;
+    color: #ffffff;
 }
 
 input[type=text] {
@@ -60,7 +61,7 @@ input[type=text] {
 }
 
 input[type=text]:focus {
-    border-color: #707070
+    border-color: #1a1a1a
 }
 
 .stripe {
@@ -110,7 +111,7 @@ input[type=text]:focus {
 
 .stripe .content div img {
     position: absolute;
-    max-height: 100px;
+    max-height: 150px;
     max-width: 150px;
     top: 50%;
     transform: translateY(-50%);
