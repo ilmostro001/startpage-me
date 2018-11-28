@@ -10,9 +10,9 @@ $(document).ready(function() {
         $search.focus();
     });
 
-    $("span[name='sr']").click(function() {
+    $("span[name='g']").click(function() {
         var curr = $search.val();
-        $search.val("!sr " + curr);
+        $search.val("!g " + curr);
         $search.focus();
     });
 
